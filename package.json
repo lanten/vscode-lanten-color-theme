@@ -1,0 +1,22 @@
+{
+    "name": "lanten-theme",
+    "displayName": "lanten-theme",
+    "description": "lanten",
+    "version": "0.0.1",
+    "publisher": "lanten",
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "lanten-theme",
+                "uiTheme": "vs",
+                "path": "./themes/lanten-theme-color-theme.json"
+            }
+        ]
+    }
+}
