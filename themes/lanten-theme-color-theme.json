@@ -2,12 +2,12 @@
 	"name": "lanten-theme",
 	"type": "light",
 	"colors": {
-		"editor.background": "#f3f5f6",
-		"editor.foreground": "#39464e",
-		"editor.selectionBackground": "#d7d4f0",
-		"editor.inactiveSelectionBackground": "#e1e5ea",
+		"editor.background": "#fffbf6",
+		"editor.foreground": "#4B83CD", // 前景色
+		"editor.selectionBackground": "#ffe3bf",
+		"editor.inactiveSelectionBackground": "#cebeaa",
 		"editor.selectionHighlightBackground": "#decdb1",
-		"editor.findMatchBackground": "#d7d4f080",
+		"editor.findMatchBackground": "#24a5cb80",
 		"editor.findMatchHighlightBackground": "#d7d4f060",
 		"editor.findRangeHighlightBackground": "#d7d4f040",
 		"editor.hoverHighlightBackground": "#add6ff",
@@ -15,11 +15,24 @@
 		"editor.rangeHighlightBackground": "#fdff00",
 		"editorCursor.foreground": "#39464e",
 		"editorWhitespace.foreground": "#969896",
-		"editorIndentGuide.background": "#dddddd",
+		"editorIndentGuide.background": "#f6f2ee",
 		"editor.wordHighlightBackground": "#b1d2de",
 		"editor.wordHighlightStrongBackground": "#d7d4f070",
 		"peekViewResult.matchHighlightBackground": "#d7d4f060",
-		"peekViewEditor.matchHighlightBackground": "#f5d802"
+		"peekViewEditor.matchHighlightBackground": "#f5d802",
+		"activityBar.background":"#48443c73",
+		"sideBar.background":"#fffbf6",
+		// "sideBar.foreground":"#fffbf6",
+		// "list.focusBackground":"#888",
+		"list.hoverBackground":"#48443c26",
+		"list.inactiveSelectionBackground":"#48443c26",
+		"list.activeSelectionBackground":"#48443c26",
+		"editorGroup.background":"#fffbf6",
+		"editorGroupHeader.tabsBackground":"#fffbf6",
+		"tab.border":"#fffbf6",
+		"tab.inactiveBackground":"#48443c26"
+		// "tab.activeBackground":"#fffbf6",
+		// "tab.inactiveForeground":"#fffbf6"
 	},
 	"tokenColors": [{
 			"settings": {
@@ -72,7 +85,7 @@
 			}
 		},
 		{
-			"name": "Operators",
+			"name": "Operators", // 运营商
 			"scope": "keyword.operator",
 			"settings": {
 				"foreground": "#777777"
@@ -95,28 +108,28 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#7A3E9D"
+				"foreground": "#50AEC6"
 			}
 		},
 		{
-			"name": "Language Constants", 
+			"name": "Language Constants",
 			"scope": [
 				"constant.language",
 				"support.constant",
 				"variable.language"
 			],
 			"settings": {
-				"foreground": "#ea0e76" // 语言常数
+				"foreground": "#ff1790" // 语言常数
 			}
 		},
 		{
-			"name": "Variables",
+			"name": "Variables", // 变量
 			"scope": [
 				"variable",
 				"support.variable"
 			],
 			"settings": {
-				"foreground": "#7A3E9D"
+				"foreground": "#C550C6"
 			}
 		},
 		{
@@ -126,12 +139,12 @@
 				"support.function"
 			],
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#AA3731"
+				"fontStyle": "italic",
+				"foreground": "#9320EB"
 			}
 		},
 		{
-			"name": "Classes",
+			"name": "Classes", // 类
 			"scope": [
 				"entity.name.type",
 				"entity.other.inherited-class",
@@ -139,7 +152,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#7A3E9D"
+				"foreground": "#FE7C00"
 			}
 		},
 		{
@@ -164,21 +177,21 @@
 				"constant"
 			],
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#4B83CD"
 			}
 		},
 		{
 			"name": "Strings", // 字符串
 			"scope": "string",
 			"settings": {
-				"foreground": "#61C694"
+				"foreground": "#52BB76"
 			}
 		},
 		{
-			"name": "Strings: Escape Sequences",
+			"name": "Strings: Escape Sequences", // 字符串：转义序列
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#3EC5CB"
 			}
 		},
 		{
@@ -192,14 +205,14 @@
 			"name": "Strings: Symbols", // 字符串：符号
 			"scope": "constant.other.symbol",
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#12B018"
 			}
 		},
 		{
-			"name": "Punctuation",
+			"name": "Punctuation", // 标点
 			"scope": "punctuation",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#0148A6"
 			}
 		},
 		{
@@ -233,14 +246,14 @@
 				"punctuation.definition.tag.end.html"
 			],
 			"settings": {
-				"foreground": "#91B3E0"
+				"foreground": "#0148A6"
 			}
 		},
 		{
 			"name": "HTML: Tag Names",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#4B83CD"
+				"foreground": "#FE7C00"
 			}
 		},
 		{
@@ -251,7 +264,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#91B3E0"
+				"foreground": "#C550C6"
 			}
 		},
 		{
@@ -265,7 +278,7 @@
 			}
 		},
 		{
-			"name": "CSS: Selectors",
+			"name": "CSS: Selectors", // css 选择器
 			"scope": [
 				"meta.selector",
 				"meta.selector entity",
@@ -273,7 +286,7 @@
 				"entity.name.tag.css"
 			],
 			"settings": {
-				"foreground": "#7A3E9D"
+				"foreground": "#FE7C00"
 			}
 		},
 		{
@@ -283,7 +296,7 @@
 				"support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#4B83CD"
 			}
 		},
 		{
@@ -294,7 +307,7 @@
 				"support.constant.property-value"
 			],
 			"settings": {
-				"foreground": "#448C27"
+				"foreground": "#C550C6"
 			}
 		},
 		{
@@ -351,27 +364,27 @@
 			}
 		},
 		{
-			"name": "Markup: Output",
+			"name": "Markup: Output", // 标记：输出
 			"scope": [
 				"markup.output",
 				"markup.raw"
 			],
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#888888"
 			}
 		},
 		{
-			"name": "Markup: Prompt",
+			"name": "Markup: Prompt", // 标记：提示
 			"scope": "markup.prompt",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#888888"
 			}
 		},
 		{
 			"name": "Markup: Heading",
 			"scope": "markup.heading",
 			"settings": {
-				"foreground": "#AA3731"
+				"foreground": "#9320EB"
 			}
 		},
 		{
@@ -399,7 +412,7 @@
 			"name": "Markup Quote",
 			"scope": "markup.quote",
 			"settings": {
-				"foreground": "#7A3E9D"
+				"foreground": "#F9D534"
 			}
 		},
 		{

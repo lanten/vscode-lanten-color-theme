@@ -33,7 +33,7 @@ class Main extends React.Component {
 			lssuidateSelect: [selected[0] + '年', (selected[1] - 0) < 10 ? `0${selected[1] - 0}月` : selected[1] + '月', (selected[2] - 0) < 10 ? `0${selected[2] - 0}日` : selected[2] + '日'],
 			scopeCheckJson: {},
 		}
-
+		let a = '123\,123\\123\-,123\!,1223\'123';
 		this.stateText = this.props.certcd ? '编辑' : '保存';
 		this.props.navigationState.title = '证照' + this.stateText;
 
@@ -51,7 +51,7 @@ class Main extends React.Component {
 				path: 'images'
 			}
 		};
-
+		JSON.stringify()
 		this.init();
 
 	}
