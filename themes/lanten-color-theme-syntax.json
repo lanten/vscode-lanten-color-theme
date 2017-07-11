@@ -1,5 +1,5 @@
 {
-	"name": "lanten-theme",
+	"name": "lanten-color-theme-syntax",
 	"type": "light",
 	"colors": {
 		"editor.background": "#fffbf6",
@@ -22,8 +22,6 @@
 		"peekViewEditor.matchHighlightBackground": "#f5d802",
 		"activityBar.background":"#48443c73",
 		"sideBar.background":"#fffbf6",
-		// "sideBar.foreground":"#fffbf6",
-		// "list.focusBackground":"#888",
 		"list.hoverBackground":"#48443c26",
 		"list.inactiveSelectionBackground":"#48443c26",
 		"list.activeSelectionBackground":"#48443c26",
@@ -32,8 +30,6 @@
 		"tab.border":"#fffbf6",
 		"tab.inactiveBackground":"#48443c26",
 		"statusBar.background":"#ff9847"
-		// "tab.activeBackground":"#fffbf6",
-		// "tab.inactiveForeground":"#fffbf6"
 	},
 	"tokenColors": [{
 			"settings": {
@@ -86,7 +82,7 @@
 			}
 		},
 		{
-			"name": "Operators", // 运营商
+			"name": "Operators",
 			"scope": "keyword.operator",
 			"settings": {
 				"foreground": "#777777"
@@ -275,7 +271,7 @@
 				"punctuation.definition.entity"
 			],
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#89B185"
 			}
 		},
 		{
@@ -297,7 +293,7 @@
 				"support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#4B83CD"
+				"foreground": "#12B018"
 			}
 		},
 		{
@@ -438,7 +434,7 @@
 			"scope": "markup.inline.raw",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#AB6526"
+				"foreground": "#89B185"
 			}
 		},
 		{
