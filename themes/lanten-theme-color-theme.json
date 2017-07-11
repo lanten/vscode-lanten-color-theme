@@ -30,7 +30,8 @@
 		"editorGroup.background":"#fffbf6",
 		"editorGroupHeader.tabsBackground":"#fffbf6",
 		"tab.border":"#fffbf6",
-		"tab.inactiveBackground":"#48443c26"
+		"tab.inactiveBackground":"#48443c26",
+		"statusBar.background":"#ff9847"
 		// "tab.activeBackground":"#fffbf6",
 		// "tab.inactiveForeground":"#fffbf6"
 	},
