@@ -4,6 +4,7 @@
     "description": "lanten-color-theme",
     "version": "0.3.0",
     "publisher": "lanten",
+    "icon":"./light.png",
     "engines": {
         "vscode": "^1.13.0"
     },
