@@ -2,9 +2,9 @@
     "name": "lanten-color-theme",
     "displayName": "lanten-theme",
     "description": "lanten-color-theme",
-    "version": "0.3.0",
+    "version": "0.6.0",
     "publisher": "lanten",
-    "icon":"./light.png",
+    "icon": "light.png",
     "engines": {
         "vscode": "^1.13.0"
     },
