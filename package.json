@@ -1,27 +1,26 @@
 {
-    "name": "lanten-color-theme",
-    "displayName": "lanten",
-    "description": "lanten-color-theme",
-    "version": "0.1.0",
-    "publisher": "lanten",
-    "engines": {
-        "vscode": "^1.13.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "lanten-color-theme-light",
-                "uiTheme": "vs",
-                "path": "./themes/lanten-color-theme-light.json"
-            },
-            {
-                "label": "lanten-color-theme-dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/lanten-color-theme-dark.json"
-            }
-        ]
-    }
+	"name": "lanten-color-theme",
+	"displayName": "lanten",
+	"description": "lanten-color-theme",
+	"version": "0.1.0",
+	"publisher": "lanten",
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [{
+				"label": "lanten-color-theme-light",
+				"uiTheme": "vs",
+				"path": "./themes/lanten-color-theme-light.json"
+			},
+			{
+				"label": "lanten-color-theme-dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/lanten-color-theme-dark.json"
+			}
+		]
+	}
 }
