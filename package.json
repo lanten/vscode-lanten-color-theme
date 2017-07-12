@@ -13,13 +13,13 @@
     "contributes": {
         "themes": [
             {
-                "label": "lanten-color-theme-syntax",
+                "label": "lanten-color-theme-light",
                 "uiTheme": "vs",
-                "path": "./themes/lanten-color-theme-syntax.json"
+                "path": "./themes/lanten-color-theme-light.json"
             },
             {
                 "label": "lanten-color-theme-dark",
-                "uiTheme": "vs",
+                "uiTheme": "vs-dark",
                 "path": "./themes/lanten-color-theme-dark.json"
             }
         ]
