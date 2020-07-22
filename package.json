@@ -1,28 +1,31 @@
 {
-    "name": "lanten-color-theme",
-    "displayName": "lanten-theme",
-    "description": "lanten-color-theme",
-    "version": "0.7.0",
-    "publisher": "lanten",
-    "icon": "light.png",
-    "engines": {
-        "vscode": "^1.13.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "lanten-color-theme-light",
-                "uiTheme": "vs",
-                "path": "./themes/lanten-color-theme-light.json"
-            },
-            {
-                "label": "lanten-color-theme-dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/lanten-color-theme-dark.json"
-            }
-        ]
-    }
+  "name": "lanten-color-theme",
+  "displayName": "lanten-theme",
+  "description": "lanten-color-theme",
+  "version": "0.7.1",
+  "publisher": "lanten",
+  "icon": "dark.png",
+  "engines": {
+    "vscode": "^1.13.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "lanten-color-theme-light",
+        "uiTheme": "vs",
+        "path": "./themes/lanten-color-theme-light.json"
+      },
+      {
+        "label": "lanten-color-theme-dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lanten-color-theme-dark.json"
+      }
+    ]
+  },
+  "repository": {
+    "url": "https://github.com/lanten/vscode-lanten-color-theme"
+  }
 }
