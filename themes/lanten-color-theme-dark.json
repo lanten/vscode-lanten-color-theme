@@ -609,6 +609,7 @@
     "dropdown.foreground": "#d8dee9",
     "editorCursor.foreground": "#d8dee9",
     "editorIndentGuide.background": "#434c5eb3",
+    "editorIndentGuide.activeBackground": "#7f8d9bb3",
     "editorLineNumber.foreground": "#d8dee966",
     "editorWhitespace.foreground": "#4c566ab3",
     "editorWidget.background": "#2e3440",
@@ -624,6 +625,7 @@
     "editor.inactiveSelectionBackground": "#434c5ecc",
     "editor.selectionBackground": "#434c5ecc",
     "editor.selectionHighlightBackground": "#434c5ecc",
+
     "editor.rangeHighlightBackground": "#434c5e52",
     "editor.wordHighlightBackground": "#743991",
     "editor.wordHighlightStrongBackground": "#743991",
