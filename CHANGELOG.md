@@ -3,5 +3,5 @@ All notable changes to the "lanten-theme" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
-- Initial release
+## [0.7.3] - 2021-06-11
+- 修复高亮文本色问题
