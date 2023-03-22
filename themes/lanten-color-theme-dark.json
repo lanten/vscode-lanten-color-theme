@@ -590,8 +590,8 @@
   "colors": {
     "editorInlayHint.parameterBackground": "#676E9550",
     "editorInlayHint.parameterForeground": "#a6accd",
-    "editorInlayHint.typeBackground": "#676E9550",
-    "editorInlayHint.typeForeground": "#a6accd",
+    "editorInlayHint.typeBackground": "#676E9530",
+    "editorInlayHint.typeForeground": "#a6accd60",
     "editorSuggestWidget.selectedForeground": "#ffffff",
     "focusBorder": "#3b4252",
     "foreground": "#d8dee9",
