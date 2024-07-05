@@ -836,7 +836,7 @@
     "tab.unfocusedActiveForeground": "#d8dee999",
     "tab.unfocusedInactiveForeground": "#d8dee966",
     "terminal.background": "#232933",
-    "terminal.foreground": "#d8dee9",
+    "terminal.foreground": "#a8adb5",
     "terminal.ansiBlack": "#313948",
     "terminal.ansiRed": "#bf616a",
     "terminal.ansiGreen": "#a3be8c",
