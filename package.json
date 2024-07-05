@@ -2,7 +2,7 @@
   "name": "lanten-color-theme",
   "displayName": "lanten-theme",
   "description": "lanten-color-theme",
-  "version": "0.7.6",
+  "version": "0.7.8",
   "publisher": "lanten",
   "icon": "dark.png",
   "engines": {
@@ -22,6 +22,11 @@
         "label": "lanten-color-theme-dark",
         "uiTheme": "vs-dark",
         "path": "./themes/lanten-color-theme-dark.json"
+      },
+      {
+        "label": "lanten-color-theme-deep-dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lanten-color-theme-deep-dark.json"
       }
     ]
   },
