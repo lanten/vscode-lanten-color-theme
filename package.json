@@ -2,7 +2,7 @@
   "name": "lanten-color-theme",
   "displayName": "lanten-theme",
   "description": "lanten-color-theme",
-  "version": "0.7.89",
+  "version": "0.8.0",
   "publisher": "lanten",
   "icon": "dark.png",
   "engines": {
